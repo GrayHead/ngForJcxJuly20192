@@ -1,0 +1,10 @@
+<div>
+  <div>{{u.id}}</div>
+  <h3>{{u.email}}</h3>
+  <div>{{u.name}}</div>
+  <div>{{u.password}}</div>
+  <div *ngFor="let skill of u.skills">
+    {{skill.title}} - {{skill.value}}
+  </div>
+
+</div>
